@@ -31,13 +31,7 @@ body {
   float: right;
   width: 40%;
 }
-/*.titleWrite{       was able to get absolute position to work correctly but did not understand why use here
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  width: 500px;
-  z-index: -1;
-}*/
+
 .titleWrite{
   width: 500px;
 }
@@ -60,4 +54,8 @@ body {
   border-top: 3px solid black;
   height: 100px;
   background-color: lightgray;
+}
+.footerContainer{
+  position: absolute;
+  top: 0;
 }
