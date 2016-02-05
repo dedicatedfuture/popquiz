@@ -26,14 +26,18 @@ body {
   width: 100%;
   border: 4px solid black;
 }
-.titleH{
-  position: absolute;
-  top: 50%;
-}
+
 .titlePic {
   float: right;
   width: 40%;
 }
+/*.titleWrite{       was able to get absolute position to work correctly but did not understand why use here
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 500px;
+  z-index: -1;
+}*/
 .titleWrite{
   width: 500px;
 }
